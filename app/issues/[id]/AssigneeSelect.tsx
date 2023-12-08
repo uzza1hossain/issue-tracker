@@ -12,7 +12,7 @@ const AssigneeSelect = () => {
       setUsers(data);
     };
     fetchUsers();
-  }, [users]);
+  }, []);
   return (
     <Select.Root>
       <Select.Trigger placeholder="Assign..." />
